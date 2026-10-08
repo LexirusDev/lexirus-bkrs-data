@@ -1,0 +1,42 @@
+{
+  "package_version": "260830.6",
+  "source_export_date": "2026-08-30",
+  "records": 4633605,
+  "storage_file": "bkrs.lexdb",
+  "storage_format": "LXBKRS01",
+  "storage_bytes": 1124354013,
+  "storage_sha256": "40e49c5dd41d07ff40ff678e3be5a5cecbaffcdd3e8d0faab4a554ff4843826f",
+  "sources": [
+    {
+      "kind": "ru",
+      "file": "dabruks_260830.gz",
+      "sha256": "f931f3b166b94bff33be22b4f886900771e8668e7900e74e87b123766ae89606",
+      "records": 255351
+    },
+    {
+      "kind": "zh",
+      "file": "dabkrs_260830.gz",
+      "sha256": "7eabdd4cc08bd09dee6e1fdeaa93e79a763feb24ed8d9c7fff7d5cbff6b98cdc",
+      "records": 3459626
+    },
+    {
+      "kind": "example",
+      "file": "examples_260830.gz",
+      "sha256": "a98a458e24f1f20ce69862923a7d298e638f3fc4336fffd7d8d15ab63742ff83",
+      "records": 918628
+    }
+  ],
+  "cleaning": {
+    "latin_fragments_removed": 5140203,
+    "pinyin_fragments_removed": 130058,
+    "standalone_pinyin_lines_removed": 7723,
+    "russian_stress_repairs": 1501,
+    "chinese_brackets_collapsed": 20269,
+    "alternative_brackets_parenthesized": 26874,
+    "bullet_markers_removed": 1605,
+    "leading_dash_markers_removed": 5438,
+    "unmatched_bracket_symbols_removed": 4359,
+    "ru_non_chinese_bodies_quarantined": 8904
+  },
+  "notes": "Original DSL and stable keys are retained. Cleanup applies to Lexirus display data; Russian-only pseudo-definitions are quarantined from product display."
+}
